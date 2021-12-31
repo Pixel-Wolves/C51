@@ -1,0 +1,31 @@
+h1{
+    color:black;
+    display: right;
+    justify-content:left;
+}
+*{
+    border:none;
+}
+
+.header{
+    background-color:#FFFF00;
+    display: flex;
+    justify-content:space-between;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    background-color: #808080;
+    font-family: monospace;
+    border-spacing: 100;
+}
